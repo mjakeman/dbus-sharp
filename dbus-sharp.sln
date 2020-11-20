@@ -1,37 +1,39 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbus-sharp", "src\dbus-sharp.csproj", "{09A0200F-F3AF-4BD6-9EC4-E7D80D273E4C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{30611DC8-8C77-441C-A521-ACA0C6F89BF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbus-monitor", "tools\dbus-monitor.csproj", "{736160C3-844E-43D9-8106-E492D74D92CD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbus-daemon", "src\dbus-daemon.csproj", "{41918B94-6DAD-4C05-9FDF-17D51EC85AF0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbus-sharp-tests", "tests\dbus-sharp-tests.csproj", "{40AB91F9-BA2F-4C02-99F5-1F299CDBE86D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBus", "src\DBus\DBus.csproj", "{D5EA574E-A078-4D95-A846-F7B85C2DA339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09A0200F-F3AF-4BD6-9EC4-E7D80D273E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09A0200F-F3AF-4BD6-9EC4-E7D80D273E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09A0200F-F3AF-4BD6-9EC4-E7D80D273E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09A0200F-F3AF-4BD6-9EC4-E7D80D273E4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40AB91F9-BA2F-4C02-99F5-1F299CDBE86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40AB91F9-BA2F-4C02-99F5-1F299CDBE86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40AB91F9-BA2F-4C02-99F5-1F299CDBE86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40AB91F9-BA2F-4C02-99F5-1F299CDBE86D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41918B94-6DAD-4C05-9FDF-17D51EC85AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41918B94-6DAD-4C05-9FDF-17D51EC85AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{736160C3-844E-43D9-8106-E492D74D92CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{736160C3-844E-43D9-8106-E492D74D92CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = src\dbus-sharp.csproj
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Debug|x64.Build.0 = Debug|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Debug|x86.Build.0 = Debug|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Release|x64.ActiveCfg = Release|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Release|x64.Build.0 = Release|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Release|x86.ActiveCfg = Release|Any CPU
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5EA574E-A078-4D95-A846-F7B85C2DA339} = {30611DC8-8C77-441C-A521-ACA0C6F89BF4}
 	EndGlobalSection
 EndGlobal
